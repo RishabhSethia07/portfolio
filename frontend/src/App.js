@@ -1,9 +1,24 @@
 import "./App.css";
+import {
+  About,
+  Footer,
+  Header,
+  Skills,
+  Testimonials,
+  Work,
+} from "./containers";
+import { Navbar } from "./components/";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <div className="app">
+      <Navbar />
+      <Header />
+      <About />
+      <Work />
+      <Skills />
+      <Testimonials />
+      <Footer />
     </div>
   );
 }
