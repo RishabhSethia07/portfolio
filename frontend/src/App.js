@@ -1,4 +1,5 @@
-import "./App.css";
+import React from 'react';
+import './App.scss';
 import {
   About,
   Footer,
@@ -6,12 +7,12 @@ import {
   Skills,
   Testimonials,
   Work,
-} from "./containers";
-import { Navbar } from "./components/";
+} from './containers';
+import { Navbar } from './components/';
 
 function App() {
   return (
-    <div className="app">
+    <div className='app'>
       <Navbar />
       <Header />
       <About />
