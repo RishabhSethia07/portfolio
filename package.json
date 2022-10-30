@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "react-tooltip": "^4.4.3"
   }
 }
