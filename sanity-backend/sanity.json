@@ -1,11 +1,11 @@
 {
   "root": true,
-  "project": {
-    "name": "indigo-elephant"
-  },
   "api": {
     "projectId": "em0cn21s",
     "dataset": "production"
+  },
+  "project": {
+    "name": "portfolio"
   },
   "plugins": [
     "@sanity/base",
@@ -15,9 +15,7 @@
   ],
   "env": {
     "development": {
-      "plugins": [
-        "@sanity/vision"
-      ]
+      "plugins": ["@sanity/vision"]
     }
   },
   "parts": [
