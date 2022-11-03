@@ -27,14 +27,14 @@ const Testimonial = () => {
       setBrands(data);
     });
   }, []);
-
+ 
   return (
     <>
       {testimonials.length && (
         <>
           <div className='app__testimonial-item app__flex'>
             <img
-              src={urlFor(testimonials[currentIndex].imgurl)}
+              src={urlFor(testimonials[currentIndex].imageUrl)}
               alt={testimonials[currentIndex].name}
             />
             <div className='app__testimonial-content'>
